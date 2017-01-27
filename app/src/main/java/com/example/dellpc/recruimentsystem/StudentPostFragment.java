@@ -65,7 +65,7 @@ public class StudentPostFragment extends Fragment {
                 mDatabaseReference.push().setValue(student);
                 mFragmentManager = getFragmentManager();
                 mFragmentTransaction = mFragmentManager.beginTransaction();
-                mFragmentTransaction.replace(R.id.mFragStudent, new StudentFragment()).commit();
+                mFragmentTransaction.replace(R.id.mFragStudent, new CompanyFragment()).commit();
 
             }
         });
