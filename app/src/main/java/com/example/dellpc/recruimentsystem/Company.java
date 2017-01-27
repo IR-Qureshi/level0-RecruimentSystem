@@ -9,6 +9,10 @@ public class Company {
     private String J_detail;
     private String J_postDate;
 
+    public Company(){
+
+    }
+
     public Company(String mJ_title, String mJ_detail, String mJ_post){
         J_title = mJ_title;
         J_detail = mJ_detail;

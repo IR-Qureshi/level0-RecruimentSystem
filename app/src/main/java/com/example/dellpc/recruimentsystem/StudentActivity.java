@@ -37,6 +37,6 @@ public class StudentActivity extends AppCompatActivity {
 //    }
         mFragmentManager = getSupportFragmentManager();
         mFragmentTransaction = mFragmentManager.beginTransaction();
-        mFragmentTransaction.replace(R.id.mFragStudent, new StudentPostFragment()).commit();
+        mFragmentTransaction.replace(R.id.mFragComp, new StudentPostFragment()).commit();
     }
 }

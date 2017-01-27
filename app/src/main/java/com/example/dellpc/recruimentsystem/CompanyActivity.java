@@ -18,6 +18,6 @@ public class CompanyActivity extends AppCompatActivity {
 
         mFragmentManager = getSupportFragmentManager();
         mFragmentTransaction = mFragmentManager.beginTransaction();
-        mFragmentTransaction.replace(R.id.mFragStudent, new CompanyPostFragment()).commit();
+        mFragmentTransaction.replace(R.id.mFragComp, new CompanyPostFragment()).commit();
     }
 }

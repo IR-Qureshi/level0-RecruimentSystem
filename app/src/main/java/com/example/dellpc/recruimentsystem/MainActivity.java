@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         loginCompany = (Button) findViewById(R.id.btn_loginCompany);
         loginStudent = (Button) findViewById(R.id.btn_loginStudent);
 
-        mCompanyListView = (ListView) findViewById(R.id.compListView);
-        mStudentListView = (ListView) findViewById(R.id.studentListView);
+//        mCompanyListView = (ListView) findViewById(R.id.compListView);
+//        mStudentListView = (ListView) findViewById(R.id.studentListView);
 
 //        //setting adapter for company posts.
 //        List<Company> companyList = new ArrayList<>();
@@ -57,10 +57,8 @@ public class MainActivity extends AppCompatActivity {
         loginCompany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
-
+                Intent intent = new Intent(MainActivity.this, CompanyActivity.class);
+                startActivity(intent);
             }
         });
 
