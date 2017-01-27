@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "641200916311",
+    "firebase_url": "https://recruimentsystem.firebaseio.com",
+    "project_id": "recruimentsystem",
+    "storage_bucket": "recruimentsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641200916311:android:bf623985fd29978c",
+        "android_client_info": {
+          "package_name": "com.example.dellpc.recruimentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641200916311-9upo77q1sqcdlqfkona7g9lhj1ehvhtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dellpc.recruimentsystem",
+            "certificate_hash": "51EB9C77BF50E4ABE8CF4966F72441588175C8C2"
+          }
+        },
+        {
+          "client_id": "641200916311-gg19ggcmgcas55inbfdd017qg0ea36q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{"current_key": ""}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641200916311-gg19ggcmgcas55inbfdd017qg0ea36q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
